@@ -1,0 +1,7 @@
+n = int(input("Podaj ilość liczb(n): "))
+negative_count = 0
+for i in range(n):
+    liczba = int(input(f"Podaj liczbę {i+1} "))
+    if liczba < 0:
+        negative_count += 1
+print(f"Ilość liczb ujemnych w ciągu : {negative_count}")
