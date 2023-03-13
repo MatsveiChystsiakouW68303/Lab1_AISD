@@ -1,0 +1,7 @@
+import numpy as np
+tab = np.array([[5, 1, 3], [7, 4, 1], [7, 4, 7]])
+min_value = np.min(tab, axis=1)
+min_indice = np.argmin(tab, axis=1)
+for i in range(len(tab)):
+    tab[i, 0], tab[i, min_indice[i]] = tab[i,min_indice[i]], tab[i, 0]
+print(tab)
