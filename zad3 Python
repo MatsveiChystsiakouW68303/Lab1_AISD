@@ -1,0 +1,6 @@
+numbers = [1,45,6,3,5,6,4,5,6,7,5]
+value = int(input("Podaj wartość:"))
+if value in numbers:
+    print(f"Wartość {value} występuje w tablicy.")
+else:
+    print(f"Wartość {value} nie występuje w tablicy.")
