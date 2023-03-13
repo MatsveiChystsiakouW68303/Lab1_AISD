@@ -1,0 +1,6 @@
+numbers = [4,5,63,35,6,36,71,1,-3,-6,5,-88]
+minimal_value = numbers[0]
+for i in range(1,len(numbers)):
+    if numbers[i] < minimal_value:
+        minimal_value = numbers[i]
+print(f"Minimalna wartość w tablicy to: {minimal_value}")
