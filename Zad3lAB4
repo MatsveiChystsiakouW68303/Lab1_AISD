@@ -1,0 +1,11 @@
+def max_element(vector):
+    n = len(vector)
+    if n == 1:
+        return vector[0]
+    elif n == 2:
+        return vector[0] if vector[0] > vector[1] else vector[1]
+    else:
+        mid = n // 2
+        left_max = max_element(vector[:mid])
+        right_max = max_element(vector[mid:])
+        return left_max if left_max > right_max else right_max
