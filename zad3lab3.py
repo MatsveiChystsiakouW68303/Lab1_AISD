@@ -1,7 +1,12 @@
-liczby = [4, 8, 23, 1, 1, 45, 276]
-def sort(liczby):
-    strings = [str(n) for n in liczby]
-    strings.sort()
-    sorted = [int(s) for s in strings]
-    return sorted
-print(sort(liczby))
+numbers = [1, 2, 3, 11, 21, 111, 231]
+
+def sort(numbers):
+    sorted_numbers = []
+    while len(numbers) > 0:
+        small = min(numbers)
+        sorted_numbers.append(small)
+        numbers.remove(smallest)
+
+    return sorted_numbers
+
+print(sort(numbers))
