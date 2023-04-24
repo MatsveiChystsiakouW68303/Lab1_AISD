@@ -1,12 +1,12 @@
-numbers = [1, 2, 3, 11, 21, 111, 231]
+liczby = [1, 2, 3, 11, 21, 111, 231]
 
-def sort(numbers):
+def sort1(numbers):
     sorted_numbers = []
     while len(numbers) > 0:
-        small = min(numbers)
+        small = min(lizcby)
         sorted_numbers.append(small)
-        numbers.remove(smallest)
+        numbers.remove(small)
 
     return sorted_numbers
 
-print(sort(numbers))
+print(sort(liczby))
