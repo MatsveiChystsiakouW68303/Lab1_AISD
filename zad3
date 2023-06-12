@@ -1,4 +1,4 @@
-n=int(input("podaj n: ")
+n=int(input("podaj n: "))
 def bin(n):
     if n == 0:
         return 0
