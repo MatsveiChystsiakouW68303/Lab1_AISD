@@ -1,3 +1,4 @@
+n=in(input("podaj n: ")
 def bin(n):
     if n == 0:
         return 0
@@ -5,6 +6,6 @@ def bin(n):
         return 10 * bin(n // 2)
     else:
         return 10 * bin(n // 2) + 1
-decimal_number = 27
-binary_number = bin(decimal_number)
+
+binary_number = bin(n)
 print(binary_number)
